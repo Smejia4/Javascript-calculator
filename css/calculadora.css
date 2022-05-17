@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #63fff9;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #63fff9;
+    text-align: center;
+}
+
+#display{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 500px;
+    height: 100px;
+}
+
+#tabla{
+    width: 500px;
+	height: 500px;
+    background-color: black;
+}
+
+#num{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #63fff9;
+    width: 120px;
+	height: 100px;
+}
+
+#boton{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color:#40afff;
+    width: 120px;
+	height: 100px;
+}

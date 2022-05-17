@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="css/calculadora.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <script src="js/calculadora.js"></script>
+    <center>
+        <table id="tabla" border="20">
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="pantalla" type="text" class="color_display" id="display">
+                </td>
+            </tr>
+            <tr>
+                <td><input name="button" type="button" class="numero" id="boton" value="+" onclick="suma()"></td>
+                <td><input name="button2" type="button" class="numero" id="boton" value="-" onclick="resta()"></td>
+                <td><input name="button3" type="button" class="numero" id="boton" value="*" onclick="multiplicacion()"></td>
+                <td><input name="button4" type="button" class="numero" id="boton" value="/" onclick="division()"></td>
+            </tr>
+            <tr>
+                <td><input name="num7" type="button" class="numero" id="num" value="7" onclick="mostrar_numeros(7)"></td>
+                <td><input name="num8" type="button" class="numero" id="num" value="8" onclick="mostrar_numeros(8)"></td>
+                <td><input name="num9" type="button" class="numero" id="num" value="9" onclick="mostrar_numeros(9)"></td>
+                <td><input name="alcuadrado" type="button" class="numero" id="boton" value="x²" onclick="alcuadrado()"></td>
+
+            </tr>
+            <tr>
+                <td><input name="num4" type="button" class="numero" id="num" value="4" onclick="mostrar_numeros(4)"></td>
+                <td><input name="num5" type="button" class="numero" id="num" value="5" onclick="mostrar_numeros(5)"></td>
+                <td><input name="num6" type="button" class="numero" id="num" value="6" onclick="mostrar_numeros(6)"></td>
+                <td><input name="alcubo" type="button" class="numero" id="boton" value="x³" onclick="alcubo()"></td>
+            </tr>
+            <tr>
+                <td><input name="num1" type="button" class="numero" id="num" value="1" onclick="mostrar_numeros(1)"></td>
+                <td><input name="num2" type="button" class="numero" id="num" value="2" onclick="mostrar_numeros(2)"></td>
+                <td><input name="num3" type="button" class="numero" id="num" value="3" onclick="mostrar_numeros(3)"></td>
+                <td><input name="alcuatro" type="button" class="numero" id="boton" value="x⁴" onclick="alcuatro()"></td>
+            </tr>
+            <tr>
+                <td><input name="raizcuadrada" type="button" class="numero" id="boton" value="√" onclick="raizcuadrada()"></td>
+                <td><input name="num0" type="button" class="numero" id="num" value="0" onclick="mostrar_numeros(0)"></td>
+                <td><input name="igual" type="button" class="numero" id="boton" value="=" onclick="igual()"></td>
+                <td><input name="borrar" type="button" class="numero" id="boton" value="⌫" onclick="borrar()"></td>
+            </tr>
+        </table>
+    </center>
+    <h3>Samuel Mejía Giraldo</h3>
+</body>
+
+</html>
